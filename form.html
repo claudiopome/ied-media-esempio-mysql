@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="submit.php" method="post">
+            <label for="title">Titolo</label>
+            <input type="text" id="title" name="title">
+            <br>
+            <label for="date">Data</label>
+            <input type="date" min="2020-01-01" max="2023-12-31" id="date" name="date">
+            <br>
+            <label for="content">Contenuto</label>
+            <textarea id="content" name="content"></textarea>
+            <br>
+            <button type="submit" value="Aggiungi Articolo">Aggiungi articolo</button>
+        </form>
+    </div>
+</body>
+</html>
